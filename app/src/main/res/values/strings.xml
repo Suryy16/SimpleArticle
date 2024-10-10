@@ -19,4 +19,6 @@
         Fasilitas laboratorium yang modern serta dosen yang berpengalaman dalam bidangnya
         mendukung mahasiswa untuk berkontribusi dalam inovasi teknologi, baik di tingkat lokal maupun global.
     </string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
 </resources>

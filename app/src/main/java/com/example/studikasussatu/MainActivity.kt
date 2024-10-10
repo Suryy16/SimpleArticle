@@ -25,6 +25,15 @@ import androidx.compose.ui.unit.sp
 import com.example.studikasussatu.ui.theme.StudiKasusSatuTheme
 
 class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
+            StudiKasusSatuTheme {
+                Article()
+            }
+        }
+    }
 
 
     @Composable
